@@ -80,9 +80,9 @@ form input {
   font-family: "Poppins", sans-serif;
   font-weight: 500;
 }
-.button-complete,
-.button-delete,
-.button-edit {
+.botao-completo,
+.botao-deletar,
+.botao-editar {
   border: none;
   outline: none;
   cursor: pointer;
