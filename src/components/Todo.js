@@ -1,5 +1,5 @@
 import React from "react";
-import CheckCircleIcon from "@mui/icons-material/CheckCircle";
+import CheckCircleOutlineIcon from '@mui/icons-material/CheckCircleOutline';
 import EditIcon from "@mui/icons-material/Edit";
 import DeleteIcon from "@mui/icons-material/Delete";
 export default function Todo({ todo, toggleComplete, handleDelete, handleEdit,}) {
@@ -28,7 +28,7 @@ export default function Todo({ todo, toggleComplete, handleDelete, handleEdit,})
           className="button-complete"
           onClick={() => toggleComplete(todo)}
         >
-          <CheckCircleIcon id="i" />
+          <CheckCircleOutlineIcon id="i" />
         </button>
         <button
           className="button-edit"
