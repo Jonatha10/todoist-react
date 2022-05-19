@@ -70,11 +70,11 @@ form input {
   box-shadow: 1px 2px 10px #ddd;
 }
 .todo input {
-  cursor: pointer;
+  cursor: text;
   width: 50%;
   border: none;
   outline: none;
-  cursor: pointer;
+  cursor: text;
   background-color: transparent;
   font-size: 28px;
   font-family: "Poppins", sans-serif;
