@@ -25,7 +25,7 @@ export default function AddTodo() {
           onChange={(e) => setTitle(e.target.value)}
         />
       </div>
-      <div className="btn_container">
+      <div className="botao">
         <button>Adicionar Tarefa</button>
       </div>
     </form>
