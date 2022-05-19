@@ -25,18 +25,18 @@ export default function Todo({ todo, toggleComplete, handleDelete, handleEdit,})
       />
       <div>
         <button
-          className="button-complete"
+          className="botao-completo"
           onClick={() => toggleComplete(todo)}
         >
           <CheckCircleOutlineIcon id="i" />
         </button>
         <button
-          className="button-edit"
+          className="botao-editar"
           onClick={() => handleEdit(todo, newTitle)}
         >
           <EditIcon id="i" />
         </button>
-        <button className="button-delete" onClick={() => handleDelete(todo.id)}>
+        <button className="botao-deletar" onClick={() => handleDelete(todo.id)}>
           <DeleteIcon id="i" />
         </button>
       </div>
